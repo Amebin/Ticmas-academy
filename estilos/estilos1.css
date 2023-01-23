@@ -1,0 +1,58 @@
+
+        p{
+            color: red;
+            width: 300px;
+        }
+        /**comentarios se ingresan entre barra y asteriscos
+        border es el borde o marco, se puede asignar tipo de marco y color
+        padding espacio entre el texto y el margen, se puede especificar diferente por cada lado
+        margin es el margen que esta por fuera del border, se puede especificar diferente por cada lado
+        font-weight es el tipo de letra, negrita, finita, curva etc
+        color es el color de la letra 
+        si encierro algo unicamente entre * y corchetes aplica a toda la pagina
+        para darle propiedades a un elemento en particular defino su id y lo llamo con un numeral
+        con un . y corchetes se define una clase, se lo llama con class en el documento html
+        */
+        h1{
+            font-family: 'Dancing Script', cursive;
+            border: 5px solid red;
+            padding: 5px;
+            margin: 15px;
+            font-weight: bold;
+            color: blue;
+        }
+        #p1 {
+            color: blue;
+            width: 500px;
+            border: 10px dotted orange;
+        }
+
+        .una_id {
+            color: lightcoral;
+        }
+        body {
+            background-color: lightgreen;
+        }
+
+        @media only screen and (max-width: 600px){
+            body {
+                background-color: red;
+            }
+        }
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .menu{
+            width: 25%;
+            float: left;
+        }
+
+        .main{
+            width: 75%;
+            float: left;
+        }
+
+       
