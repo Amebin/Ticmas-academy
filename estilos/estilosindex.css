@@ -1,0 +1,65 @@
+/**definimos tipo de letra, tamaño, negrita, bordes, etc del titulo*/
+
+body{
+    background-image: url('../imagenes/fondo2.webp');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: darkmagenta;
+
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+
+#pequeña1 {
+    font-size: 17px;
+}
+
+#moldeado1 {
+    font-style: oblique;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+#imagenFondo {
+    background-color: rgb(252, 137, 198);
+    border: none;
+    color: dimgrey;
+    padding: 15px 35px;
+    font-size: 20px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+#imagenFondo:hover {
+    background-color: aqua;
+    color: black;
+}
+
+#back2back {
+    background-color: rgb(252, 137, 198);
+    border: none;
+    color: dimgrey;
+    padding: 15px 35px;
+    font-size: 20px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+#back2back:hover {
+    background-color: aqua;
+    color: black;
+}
